@@ -28,9 +28,9 @@ def main():
 
     # Create a chain of thought prompt to guide GPT through the analysis
     messages = [
-        {"role": "system", "content": "You are a critical text analyst."},
+        {"role": "system", "content": "You are a critical song lyric analyst who provides listeners with an in-depth understanding of the meaning behind a song."},
         {"role": "user", "content": (
-            "Read the following text and provide a chain of thought analysis that deconstructs the relationships between words and phrases, "
+            "Read the following lyrics and provide a chain of thought analysis that deconstructs the relationships between words and phrases, "
             "revealing hidden nuances and meaning. Take it step by step and explain each part of your reasoning.\n\n"
             f"Text: {source_text}\n\n"
             "Chain of Thought Analysis:"
